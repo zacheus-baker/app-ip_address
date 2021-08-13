@@ -42,7 +42,7 @@ const { getIpv4MappedIpv6Address } = require(path.join(__dirname, 'ipv6.js'));
         log.info('Starting the IpAddress product.');
   }
 
-        getFirstIpAddress(cidrStr, callback) {
+   getFirstIpAddress(cidrStr, callback) {
 	
 	  // Initialize return arguments for callback
 	  let firstIpAddress = null;
